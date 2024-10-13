@@ -31,21 +31,11 @@ public class ThirdPersonController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Calculate target rotation
+        if (_moveDirection == Vector3.zero) return;
+
         var targetRotation = Quaternion.LookRotation(_moveDirection);
         _rb.MoveRotation(Quaternion.RotateTowards(_rb.rotation, targetRotation, RotationSpeed * Time.fixedDeltaTime));
 
-        // Move the character
         _rb.MovePosition(_rb.position + _moveDirection * MoveSpeed * Time.fixedDeltaTime);
-        // MoveWithRigidbody();
-    }
-
-    private void MoveWithRigidbody()
-    {
-        _rb.velocity = new Vector3(
-            MoveSpeed * _moveDirection.x,
-            _rb.velocity.y,
-            MoveSpeed * _moveDirection.z
-        );
     }
 }
