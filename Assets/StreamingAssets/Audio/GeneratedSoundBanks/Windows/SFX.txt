@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	434490638	ButtonActivated			\Default Work Unit\SFX\Items\ButtonActivated	
+	4008126242	PlayerJump			\Default Work Unit\SFX\Player\PlayerJump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	667755221	player jump	C:\Users\jerkl\UnityProjects\_\Extension-Wwise\Extension-Wwise_WwiseProject\.cache\Windows\SFX\game-fx-jump-and-run-character-jump-01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\player jump		146400
+	1011526272	score	C:\Users\jerkl\UnityProjects\_\Extension-Wwise\Extension-Wwise_WwiseProject\.cache\Windows\SFX\score_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\score		364704
+

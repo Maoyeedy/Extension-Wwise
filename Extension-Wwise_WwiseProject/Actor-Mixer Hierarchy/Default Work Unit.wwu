@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD677991-B620-4E8D-B38B-C3A42C213C9B}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{CD677991-B620-4E8D-B38B-C3A42C213C9B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="score" ID="{1D958430-EB3F-4FB0-BE37-4AF53A8B0908}" ShortID="116149016">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>500</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18637867-3126-4D57-9422-2915A5E3258A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9215B1C1-E96E-4BEE-8FBD-66A4F3DC771F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="score" ID="{C46DBA26-462C-4442-A776-8C78F6092485}">
+							<Language>SFX</Language>
+							<AudioFile>score.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1011526272"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="score" ID="{C46DBA26-462C-4442-A776-8C78F6092485}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="ScoreSequence" ID="{B83486EB-7DD2-4B86-B524-B5AEB6B481A0}" ShortID="558366604">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18637867-3126-4D57-9422-2915A5E3258A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9215B1C1-E96E-4BEE-8FBD-66A4F3DC771F}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<Sound Name="player jump" ID="{11ADED6C-4044-4B4C-B61E-41A8BFBB746B}" ShortID="981834128">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18637867-3126-4D57-9422-2915A5E3258A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9215B1C1-E96E-4BEE-8FBD-66A4F3DC771F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="game-fx-jump-and-run-character-jump-01" ID="{CED92BBB-1E6B-43C6-8886-07A83B0E832D}">
+							<Language>SFX</Language>
+							<AudioFile>game-fx-jump-and-run-character-jump-01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="667755221"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="game-fx-jump-and-run-character-jump-01" ID="{CED92BBB-1E6B-43C6-8886-07A83B0E832D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="music" ID="{5531ABA4-8675-4A29-A590-F614B41E7827}" ShortID="554663948">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18637867-3126-4D57-9422-2915A5E3258A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9215B1C1-E96E-4BEE-8FBD-66A4F3DC771F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="music" ID="{52D455AD-68DF-40C2-8264-11B85F77E383}">
+							<Language>SFX</Language>
+							<AudioFile>music.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="115771147"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="music" ID="{52D455AD-68DF-40C2-8264-11B85F77E383}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

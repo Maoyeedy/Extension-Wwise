@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{349470CF-744D-4183-8988-C969ED59C6DF}" SchemaVersion="119" RootDocumentID="{272E5CF1-BD1A-4CB4-A8DB-7B5EC854CB85}" ParentDocumentID="{272E5CF1-BD1A-4CB4-A8DB-7B5EC854CB85}">
+	<Events>
+		<WorkUnit Name="Items" ID="{349470CF-744D-4183-8988-C969ED59C6DF}" OwnerID="{E25431DB-AB6D-48D2-8362-BB30EED357B1}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ButtonActivated" ID="{316DBB17-F794-4A8D-90CD-CFD77ED1281A}">
+					<ChildrenList>
+						<Action Name="" ID="{269B033F-15B0-4D29-B1A2-660B2C11D0B7}" ShortID="155483166">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="score" ID="{1D958430-EB3F-4FB0-BE37-4AF53A8B0908}" WorkUnitID="{CD677991-B620-4E8D-B38B-C3A42C213C9B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

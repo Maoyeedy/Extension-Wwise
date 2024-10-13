@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../../../../../Extension-Wwise_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../Extension-Wwise_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../Extension-Wwise_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{BDDF7E50-73B0-63E8-36E8-537D2B3BDBA3}">
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="667755221" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>game-fx-jump-and-run-character-jump-01.wav</ShortName>
+					<CachePath>SFX/game-fx-jump-and-run-character-jump-01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1011526272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>score.wav</ShortName>
+					<CachePath>SFX/score_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="434490638" Name="ButtonActivated" DurationType="OneShot" DurationMin="1.4226426" DurationMax="1.4226426">
+					<MediaRefs>
+						<MediaRef Id="1011526272"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4008126242" Name="PlayerJump" DurationType="OneShot" DurationMin="0.762" DurationMax="0.762">
+					<MediaRefs>
+						<MediaRef Id="667755221"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{69D5B700-2F25-3190-BF64-FEB6B0EA0EF5}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="115771147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music.wav</ShortName>
+					<CachePath>SFX/music_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3986041930" Name="MusicOnLevel1" DurationType="OneShot" DurationMin="41.95805" DurationMax="41.95805">
+					<MediaRefs>
+						<MediaRef Id="115771147"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BD61F8CA-BC36-D5C5-FB80-3F8BD2E38945}</FileHash>
+</SoundBanksInfo>

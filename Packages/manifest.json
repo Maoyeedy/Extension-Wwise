@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "com.unity.ide.rider": "3.0.31",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.browar.editor-toolbox": "0.13.1"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.browar.editor-toolbox"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3986041930	MusicOnLevel1			\Default Work Unit\Music\MusicOnLevel1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	115771147	music	C:\Users\jerkl\UnityProjects\_\Extension-Wwise\Extension-Wwise_WwiseProject\.cache\Windows\SFX\music_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\music		7401496
+

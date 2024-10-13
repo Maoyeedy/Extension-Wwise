@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{272E5CF1-BD1A-4CB4-A8DB-7B5EC854CB85}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{272E5CF1-BD1A-4CB4-A8DB-7B5EC854CB85}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{CB171F9B-99A5-4AB7-BD6A-EB0F186BB5FD}" ShortID="1023613865">
+					<ChildrenList>
+						<Event Name="MusicOnLevel1" ID="{09A51016-5199-4658-BB78-5EFCDF07D093}">
+							<ChildrenList>
+								<Action Name="" ID="{23B4D0A6-CD18-453C-B492-4C88D24852D3}" ShortID="139077616">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music" ID="{5531ABA4-8675-4A29-A590-F614B41E7827}" WorkUnitID="{CD677991-B620-4E8D-B38B-C3A42C213C9B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{E25431DB-AB6D-48D2-8362-BB30EED357B1}" ShortID="443506628">
+					<ChildrenList>
+						<WorkUnit Name="Player" ID="{82D83A5B-F42B-4802-9F29-E398CDAC140F}" PersistMode="Reference"/>
+						<WorkUnit Name="Items" ID="{349470CF-744D-4183-8988-C969ED59C6DF}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
