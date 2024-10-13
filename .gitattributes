@@ -5,20 +5,15 @@
 #
 # Latest version at https://gist.github.com/webbertakken/ff250a0d5e59a8aae961c2e509c07fbc
 #
-
 # Ensure that text files that any contributor introduces to the repository have their line endings normalized
 * text=auto
-
 # Increase probability of success for merging files with specific extensions
 *.cs diff=csharp
-
 # Macro attribute: Files with Unity's yaml format
 # linguist-generated means the file is ignored for the repository's language statistics and diffs are hidden by default.
 [attr]unity-yaml-file -text merge=unityyamlmerge linguist-generated
-
 # Macro attribute: Files intended for LFS
 [attr]lfs-file filter=lfs diff=lfs merge=lfs -text
-
 # Unity files
 # *.asmdef unity-yaml-file
 # *.anim unity-yaml-file
@@ -44,7 +39,6 @@
 # *.spriteatlas unity-yaml-file
 # *.terrainlayer unity-yaml-file
 *.unity unity-yaml-file
-
 # Binary assets
 LightingData.asset lfs-file
 OcclusionCullingData.asset
@@ -54,7 +48,6 @@ OcclusionCullingData.asset
 *TerrainData*.asset lfs-file
 # *-[Tt]errainData.asset lfs-file
 # *-[Tt]errain.asset lfs-file
-
 # Image formats
 *.jpg lfs-file
 *.png lfs-file
@@ -73,7 +66,6 @@ OcclusionCullingData.asset
 *.avif lfs-file
 *.psd lfs-file
 *.ai lfs-file
-
 # Audio formats
 *.mp3 lfs-file
 *.ogg lfs-file
@@ -84,7 +76,6 @@ OcclusionCullingData.asset
 *.it lfs-file
 *.s3m lfs-file
 *.xm lfs-file
-
 # Video formats
 *.mov lfs-file
 *.avi lfs-file
@@ -92,7 +83,6 @@ OcclusionCullingData.asset
 *.mpg lfs-file
 *.mpeg lfs-file
 *.mp4 lfs-file
-
 # 3D formats
 *.fbx lfs-file
 *.obj lfs-file
@@ -114,21 +104,18 @@ OcclusionCullingData.asset
 *.usdz lfs-file
 *.usdc lfs-file
 *.usda lfs-file
-
 # Binaries
 *.dll lfs-file
 *.exe lfs-file
 *.mdb lfs-file
 *.pdb lfs-file
 *.so lfs-file
-
 # Packages
 *.zip lfs-file
 *.7z lfs-file
 *.gz lfs-file
 *.rar lfs-file
 *.tar lfs-file
-
 # Misc
 *.pdf lfs-file
 *.ttf lfs-file
@@ -136,3 +123,4 @@ OcclusionCullingData.asset
 *.unitypackage lfs-file
 *.bundle lfs-file
 *.cubemap lfs-file
+*.bnk filter=lfs diff=lfs merge=lfs -text
